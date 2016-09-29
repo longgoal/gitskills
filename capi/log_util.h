@@ -1,0 +1,5 @@
+#define LOGS(fuction,result,target) g_print(""#fuction","#result"=%s,"#target"=%s\n",result,target)
+#define LOGI(fuction,result,target) g_print(""#fuction","#result"=%d,"#target"=%d\n",result,target)
+#define LOGD(fuction,result,target) g_print(""#fuction","#result"=%lld,"#target"=%lld\n",result,target)
+#define LOGF(fuction,result,target) g_print(""#fuction","#result"=%f,"#target"=%f\n",result,target)
+#define LOG_Result(fuction,result) g_print("fuction,PASSorFail:%d\n"result)

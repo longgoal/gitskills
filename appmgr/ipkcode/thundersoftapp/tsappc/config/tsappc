@@ -1,0 +1,11 @@
+config Section1 'Man'
+	option gender	'Male'
+
+config Section2 'secweather'
+	option day	'Sunday'
+	option date	'3.29'
+	option weath	'Cloudy'
+
+config Section3 'Yellow'
+	option shape	'round'
+	option colour	'red'

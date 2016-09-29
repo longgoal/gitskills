@@ -1,0 +1,75 @@
+{
+"caselist":[
+         {"case1":{
+                   "return": "int",
+                   "return_target": "-15",
+                   "fuction": "CtSgwUninstallApp"
+				   "in":{
+				          "app_5"
+                                                                
+				         }
+                   
+            
+         },
+         {"case2":{
+                   "return": "int",
+                   "return_target": "0",
+                   "fuction": "CtSgwUninstallApp",
+				   "in":{
+				          "app_7",
+                                                                
+				         }
+                   "target": {
+                              
+                                                    "path":{
+                                                            "/tmp/app_7"                                                        
+                                                       
+                                                            
+                                                           }
+                              }				   
+                  
+                   }      
+            
+         },
+         {"case3":{
+                   "return": "int",
+                   "return_target": "0",
+                   "fuction": "CtSgwUninstallApp",
+				   "in":{
+				          "app_8",
+                                                                
+				         }				   
+                   "target": {
+                              
+                                                    "path":{
+                                                            "/opt/apps/app_8/lxc.conf",
+                                                            "/etc/dbus-1/system.d/app_8.conf",                                                          
+                                                            "/opt/apps/app_8/config"
+                                                          
+                                                            
+                                                           }
+													
+                                                   
+      
+                              }				   
+                  
+                  }      
+            
+         },
+         {"case4":{
+                   "return": "int",
+                   "return_target": "-12",
+                   "fuction": "CtSgwUninstallApp"
+				   "in":{
+				          "app_8"
+                                                                
+				         }
+                   
+                  
+                  }      
+            
+        
+            
+         }
+          ]
+}

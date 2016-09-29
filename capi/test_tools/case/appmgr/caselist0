@@ -1,0 +1,75 @@
+{
+"caselist":[
+         {"case1":{
+                   "return": "int",
+                   "return_target": "-12",
+                   "fuction": "CtSgwInstallApp",
+				   "in":{
+				          "app_name":"app_part1",
+                                                                
+				         }				   
+                  
+                  }      
+            
+         },
+         {"case2":{
+                   "return": "int",
+                   "return_target": "-17",
+                   "fuction": "CtSgwInstallApp",
+				   "in":{
+				          "app_no_interface1",
+                                                                
+				         }				   
+                  
+                  }      
+            
+         },
+         {"case3":{
+                   "return": "int",
+                   "return_target": "-4",
+                   "fuction": "CtSgwInstallApp",
+				   "in":{
+				          "app_large_size1",
+                                                                
+				         }				   
+                  
+                  }      
+            
+         },
+         {"case4":{
+                   "return": "int",
+                   "return_target": "0",
+                   "fuction": "CtSgwInstallApp",
+				   "in":{
+				          "app_1",
+                                                                
+				         }
+                    "target": {
+                              
+                                                    "path":{
+                                                            "/opt/apps/app_1/lxc.conf",
+                                                            "/etc/dbus-1/system.d/app_1.conf",
+                                                            "/opt/apps-interface.db"
+                                                           }
+													
+                                                   
+      
+                              }				   
+                  
+                  }      
+            
+         },
+         {"case5":{
+                   "return": "int",
+                   "return_target": "-11",
+                   "fuction": "CtSgwInstallApp",
+				   "in":{
+				          "app_1",
+                                                                
+				         }				   
+                  
+                  }      
+            
+         }
+          ]
+}

@@ -1,0 +1,81 @@
+{
+"case1":{
+  "return": "int",
+  "fuction": "fuction1",
+  "innum": 2,
+  "in1":{
+      "num":1,
+      "type1":"string",
+      "value1":"123456"
+  },
+  "in2":{
+      "type":"struct",
+      "value":{
+                "type":"string",
+                "value":"123456"
+      }
+      
+   },
+  
+  "outnum": 1,
+  "out1":{
+      "num":1,
+      "type":"string",
+      "value":"123456"
+  }
+}
+
+
+"case2":{
+  "return": "int",
+  "fuction": "fuction2",
+  "innum": 2,
+  "in1":{
+      "num":1,
+      "type1":"string",
+      "value1":"123456"
+  },
+  "in2":{
+      "type":"struct",
+      "value":{
+                "type":"string",
+                "value":"123456"
+      }
+      
+   },
+  
+  "outnum": 1,
+  "out1":{
+      "num":1,
+      "type":"string",
+      "value":"123456"
+  }
+}
+
+"case3":{
+  "return": "int",
+  "fuction": "fuction3",
+  "innum": 2,
+  "in1":{
+      "num":1,
+      "type1":"string",
+      "value1":"123456"
+  },
+  "in2":{
+      "type":"struct",
+      "value":{
+                "type":"string",
+                "value":"123456"
+      }
+      
+   },
+  
+  "outnum": 1,
+  "out1":{
+      "num":1,
+      "type":"string",
+      "value":"123456"
+  }
+}
+
+}

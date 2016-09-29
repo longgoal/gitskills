@@ -1,0 +1,72 @@
+{
+"caselist":[
+         {"case1":{
+                   "return": "int",
+                   "return_target": "-12",
+                   "fuction": "CtSgwUpgradeApp",
+				   "in":{
+				          "app_2"
+                                                                
+				         }
+                   
+         },
+         {"case2":{
+                   "return": "int",
+                   "return_target": "0",
+                   "fuction": "CtSgwUpgradeApp",
+				   "in":{
+				          "app_3"
+                                                                
+				         }	
+                   "target": {
+                              
+                                                    "path":{
+                                                            "/tmp/app_3"
+                                                           }				   
+                  
+                             }      
+            			   
+                  
+                  }      
+            
+         },
+         {"case3":{
+                   "return": "int",
+                   "return_target": "-4",
+                   "fuction": "CtSgwUpgradeApp",
+				   "in":{
+				          "app_large_size2"
+                                                                
+				         }				   
+                  
+                  }      
+            
+         },
+         {"case4":{
+                   "return": "int",
+                   "return_target": "-17",
+                   "fuction": "CtSgwUpgradeApp",
+				   "in":{
+				          "app_no_interface2"
+                                                                
+				         }
+                   
+                  
+                  }      
+            
+         },
+         {"case5":{
+                   "return": "int",
+                   "return_target": "0",
+                   "fuction": "CtSgwUpgradeApp",
+				   "in":{
+				          "app_4"
+                                                                
+				         }				   
+                  
+                  }      
+            
+         }
+         
+          ]
+}

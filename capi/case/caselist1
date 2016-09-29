@@ -1,0 +1,2476 @@
+{
+    "caselist": [
+        {
+            "case1": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetDeviceInfo",
+                "target": {
+                    "CtSgwDeviceInfo_t": {
+                        "path": {	
+                            "str": "/com/ctc/igd1/Info/Device"
+                        },
+                        "BusinessStatus": "0",
+                        "MAC": "DATA_MAC",
+                        "SWVersion": "xxx",
+                        "HDVersion": "xxx",
+                        "ITMSProtocolVersion": "xxx",
+                        "ProductClass": "xxx",
+                        "CPUClass": "xxx",
+                        "DevType": "xxx",
+                        "DevType1": "xxx",
+                        "Capability": "xxx",
+                        "FlashSize": "xxx",
+                        "RamSize": "xxx",
+                        "DevName": "xxx",
+                        "CPUUsage": "xxx",
+                        "MEMUsage": "xxx",
+                        "FlashUsage": "xxx",
+                        "SysDuration": "XXX"
+                    }
+                }
+            }
+        },
+        {
+            "case2": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetNetworkInfo",
+                "target": {
+                    "CtSgwNetworkInfo_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Info/Network"
+                        },
+                        "UPLink": "XXX",
+                        "IPV6": "1",
+                        "VLANbind": "0",
+                        "WiFiMode": "xxx",
+                        "PONDuration": "XXX",
+                        "PPPoEDuration": "XXX",
+                        "LAN1Status": "0",
+                        "LAN2Status": "0",
+                        "LAN3Status": "0",
+                        "LAN4Status": "0",
+                        "WANLinkStatus": "STR",
+                        "WIFIModuleStatus": "STR",
+                        "WANConnectionStatus": "DATA_Status",
+                        "PPPoEDialReason": "XXX",
+                        "IPV6_WANConnectionStatus": "DATA_Status",
+                        "IPV6_PPPoEDialReason": "XXX",
+                        "LANIPAddr": "DATA_IP",
+                        "WANIPAddr": "DATA_IP",
+                        "WANIPV6Addr": "DATA_IPV6",
+                        "WiFiBytes": "XXX",
+                        "WiFiTxBytes": "XXX",
+                        "WiFiRxBytes": "XXX",
+                        "WANBytes": "XXX",
+                        "WANTxBytes": "XXX",
+                        "WANRxBytes": "XXX"
+                    }
+                }
+            }
+        },
+        {
+            "case3": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWANConnectionObjs",
+                "target": {
+                    "CtSgwWANConnectionInfo_t": [
+                        {
+                            "path": {
+                                "str": "/com/ctc/igd1/Info/Network/WANConnectionDb/1"
+                            },
+                            "Index": "xxx",
+                            "IfName": "xxx",
+                            "ServiceList": "xxx",
+                            "ConnectionType": "xxx",
+                            "VLANID": "xxx",
+                            "VLAN8021P": "xxx",
+                            "Protocol": "xxx",
+                            "ConnectionStatus": "DATA_Status",
+                            "IPAddress": "DATA_IP",
+                            "SubnetMask": "DATA_IP",
+                            "Gateway": "DATA_IP",
+                            "DNS1": "DATA_IP",
+                            "DNS2": "DATA_IP",
+                            "IPV6_ConnectionStatus": "DATA_Status",
+                            "IPV6_IPAddress": "DATA_IPV6",
+                            "IPV6_PrefixLength": "xxx",
+                            "IPV6_Gateway": "DATA_IPV6",
+                            "IPV6_DNS1": "DATA_IPV6",
+                            "IPV6_DNS2": "DATA_IPV6",
+                            "IPV6_Prefix": "xxx",
+                            "RxBytes": "xxx",
+                            "TxBytes": "xxx",
+                            "RxPkts": "xxx",
+                            "TxPkts": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "/com/ctc/igd1/Info/Network/WANConnectionDb/2"
+                            },
+                            "Index": "xxx",
+                            "IfName": "xxx",
+                            "ServiceList": "xxx",
+                            "ConnectionType": "xxx",
+                            "VLANID": "xxx",
+                            "VLAN8021P": "xxx",
+                            "Protocol": "xxx",
+                            "ConnectionStatus": "DATA_Status",
+                            "IPAddress": "DATA_IP",
+                            "SubnetMask": "DATA_IP",
+                            "Gateway": "DATA_IP",
+                            "DNS1": "DATA_IP",
+                            "DNS2": "DATA_IP",
+                            "IPV6_ConnectionStatus": "DATA_Status",
+                            "IPV6_IPAddress": "DATA_IPV6",
+                            "IPV6_PrefixLength": "xxx",
+                            "IPV6_Gateway": "DATA_IPV6",
+                            "IPV6_DNS1": "DATA_IPV6",
+                            "IPV6_DNS2": "DATA_IPV6",
+                            "IPV6_Prefix": "xxx",
+                            "RxBytes": "xxx",
+                            "TxBytes": "xxx",
+                            "RxPkts": "xxx",
+                            "TxPkts": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "/com/ctc/igd1/Info/Network/WANConnectionDb/3"
+                            },
+                            "Index": "xxx",
+                            "IfName": "xxx",
+                            "ServiceList": "xxx",
+                            "ConnectionType": "xxx",
+                            "VLANID": "xxx",
+                            "VLAN8021P": "xxx",
+                            "Protocol": "xxx",
+                            "ConnectionStatus": "DATA_Status",
+                            "IPAddress": "DATA_IP",
+                            "SubnetMask": "DATA_IP",
+                            "Gateway": "DATA_IP",
+                            "DNS1": "DATA_IP",
+                            "DNS2": "DATA_IP",
+                            "IPV6_ConnectionStatus": "DATA_Status",
+                            "IPV6_IPAddress": "DATA_IPV6",
+                            "IPV6_PrefixLength": "xxx",
+                            "IPV6_Gateway": "DATA_IPV6",
+                            "IPV6_DNS1": "DATA_IPV6",
+                            "IPV6_DNS2": "DATA_IPV6",
+                            "IPV6_Prefix": "xxx",
+                            "RxBytes": "xxx",
+                            "TxBytes": "xxx",
+                            "RxPkts": "xxx",
+                            "TxPkts": "xxx"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case4": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWANConnection",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Info/Network/WANConnectionDb/1"
+                    }
+                },
+                "target": {
+                    "CtSgwWANConnectionInfo_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Info/Network/WANConnectionDb/1"
+                        },
+                            "Index": "xxx",
+                            "IfName": "xxx",
+                            "ServiceList": "xxx",
+                            "ConnectionType": "xxx",
+                            "VLANID": "xxx",
+                            "VLAN8021P": "xxx",
+                            "Protocol": "xxx",
+                            "ConnectionStatus": "DATA_Status",
+                            "IPAddress": "DATA_IP",
+                            "SubnetMask": "DATA_IP",
+                            "Gateway": "DATA_IP",
+                            "DNS1": "DATA_IP",
+                            "DNS2": "DATA_IP",
+                            "IPV6_ConnectionStatus": "DATA_Status",
+                            "IPV6_IPAddress": "DATA_IPV6",
+                            "IPV6_PrefixLength": "xxx",
+                            "IPV6_Gateway": "DATA_IPV6",
+                            "IPV6_DNS1": "DATA_IPV6",
+                            "IPV6_DNS2": "DATA_IPV6",
+                            "IPV6_Prefix": "xxx",
+                            "RxBytes": "xxx",
+                            "TxBytes": "xxx",
+                            "RxPkts": "xxx",
+                            "TxPkts": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case5": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWANConnectionByName",
+                "in": {
+                    "name": "1_INTERNET_B_VI"
+                },
+                "target": {
+                    "CtSgwWANConnectionInfo_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                            "Index": "xxx",
+                            "IfName": "xxx",
+                            "ServiceList": "xxx",
+                            "ConnectionType": "xxx",
+                            "VLANID": "xxx",
+                            "VLAN8021P": "xxx",
+                            "Protocol": "xxx",
+                            "ConnectionStatus": "DATA_Status",
+                            "IPAddress": "DATA_IP",
+                            "SubnetMask": "DATA_IP",
+                            "Gateway": "DATA_IP",
+                            "DNS1": "DATA_IP",
+                            "DNS2": "DATA_IP",
+                            "IPV6_ConnectionStatus": "DATA_Status",
+                            "IPV6_IPAddress": "DATA_IPV6",
+                            "IPV6_PrefixLength": "xxx",
+                            "IPV6_Gateway": "DATA_IPV6",
+                            "IPV6_DNS1": "DATA_IPV6",
+                            "IPV6_DNS2": "DATA_IPV6",
+                            "IPV6_Prefix": "xxx",
+                            "RxBytes": "xxx",
+                            "TxBytes": "xxx",
+                            "RxPkts": "xxx",
+                            "TxPkts": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case7": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetInternetWANConnection",
+                "target": {
+                    "CtSgwWANConnectionInfo_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "Index": "xxx",
+                        "IfName": "xxx",
+                        "ServiceList": "xxx",
+                        "ConnectionType": "xxx",
+                        "VLANID": "xxx",
+                        "VLAN8021P": "xxx",
+                        "Protocol": "xxx",
+                        "ConnectionStatus": "DATA_Status",
+                        "IPAddress": "DATA_IP",
+                        "SubnetMask": "DATA_IP",
+                        "Gateway": "DATA_IP",
+                        "DNS1": "DATA_IP",
+                        "DNS2": "DATA_IP",
+                        "IPV6_ConnectionStatus": "DATA_Status",
+                        "IPV6_IPAddress": "DATA_IPV6",
+                        "IPV6_PrefixLength": "xxx",
+                        "IPV6_Gateway": "DATA_IPV6",
+                        "IPV6_DNS1": "DATA_IPV6",
+                        "IPV6_DNS2": "DATA_IPV6",
+                        "IPV6_Prefix": "xxx",
+                        "RxBytes": "xxx",
+                        "TxBytes": "xxx",
+                        "RxPkts": "xxx",
+                        "TxPkts": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case8": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWiFiInfo",
+                "target": {
+                    "CtSgwWiFiInfo_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Info/WiFi"
+                        },
+                        "Enable": "0",	
+                        "WiFiMode": "xxx",
+                        "SameSSIDStatus": "0",
+                        "RxBytes": "xxx",
+                        "RxPkts": "xxx",
+                        "RxErrorPkts": "xxx",
+                        "RxDropPkts": "xxx",
+                        "TxBytes": "xxx",
+                        "TxPkts": "xxx",
+                        "TxErrorPkts": "xxx",
+                        "TxDropPkts": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case8": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwWiFiDiscClient",
+                "in": {
+                        "devMac": "xxx",
+                        "ssidIdx": "xxx"
+                },
+                "target": {
+                    
+              		"result": "xxx",
+              		"errmsg": "xxx"
+                }
+            }
+        },
+        {
+            "case8": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwWiFiSetSameSSID",
+                "in": {
+                        "ssidIdx24": "xxx",
+                        "ssidIdx58": "xxx"
+                },
+                "target": {
+                    
+              		"result": "xxx",
+              		"errmsg": "xxx"
+                }
+            }
+        },
+        {
+            "case8": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwWiFiCancelSameSSID",
+                "target": {
+                    
+              		"result": "xxx",
+              		"errmsg": "xxx"
+                }
+            }
+        },
+        {
+            "case8": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwWiFiSetEnable",
+                "in": {
+              		"enable": "xxx"
+                }
+            }
+        },
+        {
+            "case9": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetPONInfo",
+                "target": {
+                    "CtSgwPONInfo_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Info/PON"
+                        },
+                        "LOID": "xxx",
+                        "Password": "xxx",
+                        "Temperature": "xxx",
+                        "Vottage": "xxx",
+                        "Current": "xxx",
+                        "TXPower": "xxx",
+                        "RXPower": "xxx",
+                        "SupportPONStatusQuery": "0",
+                        "PONStatus": "DATA_PONSTATUS"
+                    }
+                }
+            }
+        },
+        {
+            "case10": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetVoIPInfo",
+                "target": {
+                    "CtSgwVoIPInfo_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Info/VoIP"
+                        },
+                        "VoIPName1": "xxx",
+                        "VoIPName2": "xxx",
+                        "Line1Status": "xxx",
+                        "Line2Status": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case11": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetLANHostMgr",
+                "target": {
+                    "CtSgwLANHostMgr_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Info/LANHosts"
+                        },
+                        "EnableStats": "0",
+                        "LANHostMaxNumber": "0",
+                        "LANHostNumber": "0",
+                        "ControlListMaxNumber": "0",
+                        "ControlListNumber": "0"
+                    }
+                }
+            }
+        },
+        {
+            "case12": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetLANHostMgr",
+                "in": {
+                    "CtSgwLANHostMgr_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Info/LANHosts"
+                        },
+                        "EnableStats": "1",
+                        "LANHostMaxNumber": "64",
+                        "ControlListMaxNumber": "32"
+                    }
+                }
+            }
+        },
+        {
+            "case13": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetLANHostObjs",
+                "target": {
+                    "CtSgwLANHost_t": [
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "MAC": "xxx",
+                            "DevName": "xxx",
+                            "InternetAccess": "1",
+                            "StorageAccess": "0",
+                            "ControlStatus": "0",
+                            "Active": "0",
+                            "MaxUSBandwidth": "xxx",
+                            "MaxDSBandwidth": "xxx",
+                            "DevType": "xxx",
+                            "IP": "DATA_IP",
+                            "ConnectionType": "0",
+                            "Port": "3",
+                            "Brand": "xxx",
+                            "Model": "xxx",
+                            "LatestActiveTime": "xxx",
+                            "LatestInactiveTime": "xxx",
+                            "OS": "xxx",
+                            "OnlineTime": "xxx",
+                            "RxBytes": "xxx",
+                            "TxBytes": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "MAC": "xxx",
+                            "DevName": "xxx",
+                            "InternetAccess": "1",
+                            "StorageAccess": "0",
+                            "ControlStatus": "0",
+                            "Active": "0",
+                            "MaxUSBandwidth": "xxx",
+                            "MaxDSBandwidth": "xxx",
+                            "DevType": "xxx",
+                            "IP": "DATA_IP",
+                            "ConnectionType": "0",
+                            "Port": "3",
+                            "Brand": "xxx",
+                            "Model": "xxx",
+                            "LatestActiveTime": "xxx",
+                            "LatestInactiveTime": "xxx",
+                            "OS": "xxx",
+                            "OnlineTime": "xxx",
+                            "RxBytes": "xxx",
+                            "TxBytes": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "MAC": "xxx",
+                            "DevName": "xxx",
+                            "InternetAccess": "1",
+                            "StorageAccess": "0",
+                            "ControlStatus": "0",
+                            "Active": "0",
+                            "MaxUSBandwidth": "xxx",
+                            "MaxDSBandwidth": "xxx",
+                            "DevType": "xxx",
+                            "IP": "DATA_IP",
+                            "ConnectionType": "0",
+                            "Port": "3",
+                            "Brand": "xxx",
+                            "Model": "xxx",
+                            "LatestActiveTime": "xxx",
+                            "LatestInactiveTime": "xxx",
+                            "OS": "xxx",
+                            "OnlineTime": "xxx",
+                            "RxBytes": "xxx",
+                            "TxBytes": "xxx"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case14": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetLANHost",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Info/LANHosts/1"
+                    }
+                },
+                "target": {
+                    "CtSgwLANHost_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Info/LANHosts/1"
+                        },
+                            "MAC": "xxx",
+                            "DevName": "xxx",
+                            "InternetAccess": "1",
+                            "StorageAccess": "0",
+                            "ControlStatus": "0",
+                            "Active": "0",
+                            "MaxUSBandwidth": "xxx",
+                            "MaxDSBandwidth": "xxx",
+                            "DevType": "xxx",
+                            "IP": "DATA_IP",
+                            "ConnectionType": "0",
+                            "Port": "3",
+                            "Brand": "xxx",
+                            "Model": "xxx",
+                            "LatestActiveTime": "xxx",
+                            "LatestInactiveTime": "xxx",
+                            "OS": "xxx",
+                            "OnlineTime": "xxx",
+                            "RxBytes": "xxx",
+                            "TxBytes": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case15": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetLANHost",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Info/LANHosts/1"
+                    },
+                    "CtSgwLANHost_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Info/LANHosts/1"
+                        },
+                        "DevName": "LANDev",
+                        "InternetAccess": "1",
+                        "ControlStatus": "1",
+                        "StorageAccess": "0",
+                        "MaxUSBandwidth": "100",
+                        "MaxDSBandwidth": "100"
+                    }
+                }
+            }
+        },
+        {
+            "case16": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetHttpDownloadTestURL",
+                "in": {
+                    "url": "http://www.baidu.com"
+                }
+            }
+        },
+        {
+            "case17": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetHttpDownloadTestURL",
+                "target": {
+                    "url": "http://www.baidu.com"
+                }
+            }
+        },
+        {
+            "case18": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwStartHttpDownloadTest",
+                "in": {
+                    "time": "360"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case19": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetHttpDownloadTestResult",
+                "target": {
+                    "CtSgwHttpDownloadTestResult_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+                        "Status": "xxx",
+                        "Result": "xxx",
+                        "URL": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case32": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetWPSConfig",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/WLAN/Devices/1/WPS"
+                    },
+                    "CtSgwWPS_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "Enable": "1",
+                        "TimeOut": "10"
+                    }
+                }
+            }
+        },
+        {
+            "case33": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWPSConfig",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/WLAN/Devices/1/WPS"
+                    }
+                },
+                "target": {
+                    "CtSgwWPS_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+                        "Enable": "0",
+                        "TimeOut": "xxx",
+                        "WPSStatus": "2",
+                        "DevInfo": {
+			    	"Info":"DATA_DEVINFO"
+			}
+                    }
+                }
+            }
+        },
+        {
+            "case33": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetWPS",
+                "in": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/WLAN/Devices/1/WPS"
+                        },
+                        "status": "1",
+                        "time": "10"
+                },
+                "target": {
+                        "result": "xxx",
+                        "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case34": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWLANDeviceObjs",
+                "target": {
+                    "CtSgwWLANDevice_t": [
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "SSID": "xxx",
+                            "Enable": "0",
+                            "Channel": "xxx",
+                            "ChannelInUse": "xxx",
+                            "BeaconType": "DATA_BeaTyp",
+                            "Standard": "xxx",
+                            "WEPEncryptionLevel": "DATA_WEPEnLevel",
+                            "BasicAuthenticationMode": "DATA_BasicAuthMode",
+                            "WPAEncryptionModes": "DATA_WPAEnModes",
+                            "SSIDHide": "0",
+                            "RFBand": "0",
+                            "ChannelWidth": "4",
+                            "GuardInterval": "0",
+                            "RetryTimeout": "xxx",
+                            "Powerlevel": "xxx",
+                            "PowerLevel_5G": "xxx",
+                            "PowerValue": "xxx",
+                            "APModuleEnable": "0",
+                            "WPSKeyWord": "xxx",
+                            "PWD": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "SSID": "xxx",
+                            "Enable": "0",
+                            "Channel": "xxx",
+                            "ChannelInUse": "xxx",
+                            "BeaconType": "DATA_BeaTyp",
+                            "Standard": "xxx",
+                            "WEPEncryptionLevel": "DATA_WEPEnLevel",
+                            "BasicAuthenticationMode": "DATA_BasicAuthMode",
+                            "WPAEncryptionModes": "DATA_WPAEnModes",
+                            "SSIDHide": "0",
+                            "RFBand": "0",
+                            "ChannelWidth": "4",
+                            "GuardInterval": "0",
+                            "RetryTimeout": "xxx",
+                            "Powerlevel": "xxx",
+                            "PowerLevel_5G": "xxx",
+                            "PowerValue": "xxx",
+                            "APModuleEnable": "0",
+                            "WPSKeyWord": "xxx",
+                            "PWD": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "SSID": "xxx",
+                            "Enable": "0",
+                            "Channel": "xxx",
+                            "ChannelInUse": "xxx",
+                            "BeaconType": "DATA_BeaTyp",
+                            "Standard": "xxx",
+                            "WEPEncryptionLevel": "DATA_WEPEnLevel",
+                            "BasicAuthenticationMode": "DATA_BasicAuthMode",
+                            "WPAEncryptionModes": "DATA_WPAEnModes",
+                            "SSIDHide": "0",
+                            "RFBand": "0",
+                            "ChannelWidth": "4",
+                            "GuardInterval": "0",
+                            "RetryTimeout": "xxx",
+                            "Powerlevel": "xxx",
+                            "PowerLevel_5G": "xxx",
+                            "PowerValue": "xxx",
+                            "APModuleEnable": "0",
+                            "WPSKeyWord": "xxx",
+                            "PWD": "xxx"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case35": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWLANDevice",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/WLAN/Devices/1"
+                    }
+                },
+                "target": {
+                    "CtSgwWLANDevice_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+                            "SSID": "xxx",
+                            "Enable": "0",
+                            "Channel": "xxx",
+                            "ChannelInUse": "xxx",
+                            "BeaconType": "DATA_BeaTyp",
+                            "Standard": "xxx",
+                            "WEPEncryptionLevel": "DATA_WEPEnLevel",
+                            "BasicAuthenticationMode": "DATA_BasicAuthMode",
+                            "WPAEncryptionModes": "DATA_WPAEnModes",
+                            "SSIDHide": "0",
+                            "RFBand": "0",
+                            "ChannelWidth": "4",
+                            "GuardInterval": "0",
+                            "RetryTimeout": "xxx",
+                            "Powerlevel": "xxx",
+                            "PowerLevel_5G": "xxx",
+                            "PowerValue": "xxx",
+                            "APModuleEnable": "0",
+                            "WPSKeyWord": "xxx",
+                            "PWD": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case36": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWLANDeviceBySSID",
+                "in": {
+                    "ssid": "ChinaNet-ThunderSoft"
+                },
+                "target": {
+                    "CtSgwWLANDevice_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+                            "SSID": "xxx",
+                            "Enable": "0",
+                            "Channel": "xxx",
+                            "ChannelInUse": "xxx",
+                            "BeaconType": "DATA_BeaTyp",
+                            "Standard": "xxx",
+                            "WEPEncryptionLevel": "DATA_WEPEnLevel",
+                            "BasicAuthenticationMode": "DATA_BasicAuthMode",
+                            "WPAEncryptionModes": "DATA_WPAEnModes",
+                            "SSIDHide": "0",
+                            "RFBand": "0",
+                            "ChannelWidth": "4",
+                            "GuardInterval": "0",
+                            "RetryTimeout": "xxx",
+                            "Powerlevel": "xxx",
+                            "PowerLevel_5G": "xxx",
+                            "PowerValue": "xxx",
+                            "APModuleEnable": "0",
+                            "WPSKeyWord": "xxx",
+                            "PWD": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case37": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetWLANDevice",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/WLAN/Devices/1"
+		    },
+                    "CtSgwWLANDevice_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/WLAN/Devices/1"
+                        },
+                        "SSID": "ChinaNet-ThunderSoft",
+                        "Enable": "1",
+                        "Channel": "10",
+                        "BeaconType": "None",
+                        "Standard": "a",
+                        "WEPEncryptionLevel": "104-bit",
+                        "BasicAuthenticationMode": "Both",
+                        "WPAEncryptionModes": "TKIPEncryption",	
+                        "SSIDHide": "1",
+                        "RFBand": "1",
+                        "ChannelWidth": "1",
+                        "GuardInterval": "1",
+                        "RetryTimeout": "1",
+                        "Powerlevel": "1",
+                        "PowerLevel_5G": "100",
+                        "APModuleEnable": "1",
+                        "WPSKeyWord": "128",
+                        "PWD": "87654321"
+                    }
+                }
+            }
+        },
+        {
+            "case38": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWiFiTimer",
+                "target": {
+                    "CtSgwWiFiTimer_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/WLAN/Timer"
+                        },
+                        "StartTime": "DATA_TIME",
+                        "EndTime": "DATA_TIME",
+                        "ControlCycle": "DAY",
+                        "Enable": "0"
+                    }
+                }
+            }
+        },
+        {
+            "case39": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetWiFiTimer",
+                "in": {
+                    "CtSgwWiFiTimer_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/WLAN/Timer"
+                        },
+                        "StartTime": "9:30",
+                        "EndTime": "19:30",
+                        "ControlCycle": "DAY",
+                        "Enable": "1"
+                    }
+                }
+            }
+        },
+        {
+            "case43": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwAddWiFiExTimer",
+                "in": {
+                    "CtSgwWiFiTimer1_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "WeekDay": "3",
+                        "Time": "13:00",
+                        "Active": "1",
+                        "Enable": "1"
+                    }
+                }
+            }
+        },
+        {
+            "case40": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWiFiExTimerObjs",
+                "target": {
+                    "CtSgwWiFiTimer1_t": [
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "WeekDay": "DATA_DAY",
+                            "Time": "DATA_TIME",
+                            "Active": "STR",
+                            "Enable": "0"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "WeekDay": "DATA_DAY",
+                            "Time": "DATA_TIME",
+                            "Active": "STR",
+                            "Enable": "0"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "WeekDay": "DATA_DAY",
+                            "Time": "DATA_TIME",
+                            "Active": "STR",
+                            "Enable": "0"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case41": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetWiFiExTimer",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/WLAN/ExTimers/1"
+                    }
+                },
+                "target": {
+                    "CtSgwWiFiTimer1_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+                        "WeekDay": "DATA_DAY",
+                        "Time": "DATA_TIME",
+                        "Active": "STR",
+                        "Enable": "0"
+                    }
+                }
+            }
+        },
+        {
+            "case42": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetWiFiExTimer",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/WLAN/ExTimers/1"
+                    },
+                    "CtSgwWiFiTimer1_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "WeekDay": "2",
+                        "Time": "19:30",
+                        "Active": "1",
+                        "Enable": "1"
+                    }
+                }
+            }
+        },
+        {
+            "case44": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwDelWiFiExTimer",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/WLAN/ExTimers/1"
+                    }
+                }
+            }
+        },
+        {
+            "case45": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetLED",
+                "target": {
+                    "CtSgwLED_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+                        "Status": "DATA_ACTIVE",
+                        "StartTime": "DATA_TIME",
+                        "EndTime": "DATA_TIME",
+                        "ControlCycle": "DAY",
+                        "Enable": "0"
+                    }
+                }
+            }
+        },
+        {
+            "case46": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetLED",
+                "in": {
+                    "CtSgwLED_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/Peripheral/LED"
+                        },
+                        "Status": "ON",
+                        "StartTime": "9:30",
+                        "EndTime": "21:00",
+                        "ControlCycle": "DAY",
+                        "Enable": "1"
+                    }
+                }
+            }
+        },
+        {
+            "case47": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetNFC",
+                "in": {
+                    "CtSgwNFC_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/Peripheral/NFC"
+                        },
+                        "Enable": "1"
+                    }
+                }
+            }
+        },
+        {
+            "case48": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetNFC",
+                "target": {
+                    "CtSgwNFC_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/Peripheral/NFC"
+                        },
+                        "Enable": "0"
+                    }
+                }
+            }
+        },
+        {
+            "case52": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwAddSleepTimer",
+                "in": {
+                    "CtSgwSleepTimer_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/Power/SleepTimers/1"
+                        },
+                        "Day": "1",
+                        "Time": "10:30",
+                        "Active": "1",
+                        "Enable": "1"
+                    }
+                }
+            }
+        },
+        {
+            "case49": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetSleepTimerObjs",
+                "target": {
+                    "CtSgwSleepTimer_t": [
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "Day": "DATA_DAY",
+                            "Time": "DATA_TIME",
+                            "Active": "STR",
+                            "Enable": "0"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "Day": "DATA_DAY",
+                            "Time": "DATA_TIME",
+                            "Active": "STR",
+                            "Enable": "0"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "Day": "DATA_DAY",
+                            "Time": "DATA_TIME",
+                            "Active": "STR",
+                            "Enable": "0"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case50": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetSleepTimer",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/Power/SleepTimers/1"
+                    }
+                },
+                "target": {
+                    "CtSgwSleepTimer_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "Day": "DATA_DAY",
+                        "Time": "DATA_TIME",
+                        "Active": "STR",
+                        "Enable": "0"
+                    }
+                }
+            }
+        },
+        {
+            "case51": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetSleepTimer",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/Power/SleepTimers/1"
+                    },
+                    "CtSgwSleepTimer_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/Power/SleepTimers/1"
+                        },
+                        "Day": "1",
+                        "Time": "9:00",
+                        "Active": "1",
+                        "Enable": "1"
+                    }
+                }
+            }
+        },
+        {
+            "case53": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwDelSleepTimer",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/Power/SleepTimers/1"
+                    }
+                }
+            }
+        },
+        {
+            "case57": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdSetDateTime",
+                "in": {
+                    "datetime": "9:00"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case58": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdSetDevName",
+                "in": {
+                    "devname": "devname"
+                },
+                "target": {
+                    "res": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case62": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdCheckUAPasswd",
+                "in": {
+                    "pass": "usradmin"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case62": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdSetUAPasswd",
+                "in": {
+                    "pass": "usradmin"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case63": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdCheckTAPasswd",
+                "in": {
+                    "pass": "usradmin"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case75": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetPPPoEConfig",
+                "target": {
+                    "CtSgwPPPoE_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "PPPoEUserName": "user"
+                    }
+                }
+            }
+        },
+        {
+            "case75": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetDHCPServer",
+                "in": {
+                    "CtSgwDHCPServer_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/DHCPServer"
+                        },
+			"Enable": "1",
+			"IPAddr": "192.168.1.1",
+                        "MinAddress": "192.168.1.10",
+                        "MaxAddress": "192.168.1.100",
+                        "SubnetMask": "255.255.255.0",
+                        "LeaseTime": "3600"
+                    }
+                }
+            }
+        },
+        {
+            "case74": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetDHCPServer",
+                "target": {
+                    "CtSgwDHCPServer_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+			"Enable": "0",
+                        "MinAddress": "DATA_IP",
+                        "MaxAddress": "DATA_IP",
+                        "IPAddr": "DATA_IP",
+                        "SubnetMask": "DATA_IP",
+                        "LeaseTime": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case94": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwAddPortMapping",
+                "in": {
+                    "CtSgwPortMapping_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/PortMapping/1"
+                        },
+                        "Enable": "1",
+                        "LeaseDuration": "0",
+                        "RemoteHost": "127.226.134.88",
+                        "ExternalPort": "0",
+                        "InternalPort": "0",
+                        "PortMappingProtocol": "TCP",
+                        "InternalClient": "127.226.134.166",
+                        "Description": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case92": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetPortMappingObjs",
+                "target": {
+                    "CtSgwPortMapping_t": [
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "Enable": "0",
+                            "LeaseDuration": "xxx",
+                            "RemoteHost": "DATA_IP",
+                            "ExternalPort": "xxx",
+                            "InternalPort": "xxx",
+                            "PortMappingProtocol": "xxx",
+                            "InternalClient": "DATA_IP",
+                            "Description": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "Enable": "0",
+                            "LeaseDuration": "xxx",
+                            "RemoteHost": "DATA_IP",
+                            "ExternalPort": "xxx",
+                            "InternalPort": "xxx",
+                            "PortMappingProtocol": "xxx",
+                            "InternalClient": "DATA_IP",
+                            "Description": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "Enable": "0",
+                            "LeaseDuration": "xxx",
+                            "RemoteHost": "DATA_IP",
+                            "ExternalPort": "xxx",
+                            "InternalPort": "xxx",
+                            "PortMappingProtocol": "xxx",
+                            "InternalClient": "DATA_IP",
+                            "Description": "xxx"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case93": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetPortMapping",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/PortMapping/1"
+                    }
+                },
+                "target": {
+                    "CtSgwPortMapping_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+                        "Enable": "0",
+                        "LeaseDuration": "xxx",
+                        "RemoteHost": "DATA_IP",
+                        "ExternalPort": "xxx",
+                        "InternalPort": "xxx",
+                        "PortMappingProtocol": "xxx",
+                        "InternalClient": "DATA_IP",
+                        "Description": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case96": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetPortMapping",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/PortMapping/1"
+                    },
+                    "CtSgwPortMapping_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/PortMapping/1"
+                        },
+                        "Enable": "1",
+                        "LeaseDuration": "0	",
+                        "RemoteHost": "127.226.134.166",
+                        "ExternalPort": "0",
+                        "InternalPort": "0",
+                        "PortMappingProtocol": "TCP",
+                        "InternalClient": "127.226.134.88",
+                        "Description": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case95": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwDelPortMapping",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/PortMapping/1"
+                    }
+                }
+            }
+        },
+        {
+            "case99": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_GetUSBDeviceObjs",
+                "target": {
+                    "CtSgwUSBDeviceInfo_t": [
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+			    "device": {
+			        "DeviceType": "xxx",
+                                "DeviceId": "xxx",
+                                "DeviceName": "xxx"
+			    },  
+                            "fsinfo": {
+                                "MountPoint": "xxx",
+                                "TotalSize": "xxx",
+                                "UsedSize": "xxx",
+                                "FreeSize": "xxx",
+                                "Label": "xxx"
+                            }
+                        },
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+			    "device": {
+			        "DeviceType": "xxx",
+                                "DeviceId": "xxx",
+                                "DeviceName": "xxx"
+			    },  
+                            "fsinfo": {
+                                "MountPoint": "xxx",
+                                "TotalSize": "xxx",
+                                "UsedSize": "xxx",
+                                "FreeSize": "xxx",
+                                "Label": "xxx"
+                            }
+                        },
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+			    "device": {
+			        "DeviceType": "xxx",
+                                "DeviceId": "xxx",
+                                "DeviceName": "xxx"
+			    },  
+                            "fsinfo": {
+                                "MountPoint": "xxx",
+                                "TotalSize": "xxx",
+                                "UsedSize": "xxx",
+                                "FreeSize": "xxx",
+                                "Label": "xxx"
+                            }
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case100": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_GetUSBDevice",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/usb/devices/1"
+                    }
+                },
+                "target": {
+                    "CtSgwUSBDeviceInfo_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+			"device": {
+                            "DeviceType": "xxx",
+                            "DeviceId": "xxx",
+                            "DeviceName": "xxx"
+			},
+                        "fsinfo": {
+                            "MountPoint": "xxx",
+                            "TotalSize": "xxx",
+                            "UsedSize": "xxx",
+                            "FreeSize": "xxx",
+                            "Label": "xxx"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "case103": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_NAS_GetFileNum",
+                "in": {
+                    "foldername": "/mnt/usb1_1/test"
+                },
+                "target": {
+                    "num": "xxx",
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case104": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_NAS_ListFolder",
+                "in": {
+                    "foldername": "/mnt/usb1_1/test",
+                    "startIndex": "1",
+                    "endIndex": "5"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case105": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_NAS_CreateFolter",
+                "in": {
+                    "foldername": "/mnt/usb1_1/test2"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case106": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_NAS_ReName",
+                "in": {
+                    "oldName": "/mnt/usb1_1/test2",
+                    "newName": "/mnt/usb1_1/test_NEW"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case107": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_NAS_Remove",
+                "in": {
+                    "name": "/mnt/usb1_1/log.txt"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case108": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_NAS_Move",
+                "in": {
+                    "filename": "/mnt/usb1_1/test.log",
+                    "destFolderName": "/mnt/usb1_1/test"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case109": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_NAS_Copy",
+                "in": {
+                    "name": "/mnt/usb1_1/test/test.log",
+                    "destFolderName": "/mnt/usb1_1"
+                },
+                "target": {
+                    "transId": "xxx",
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case110": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_NAS_GetCopyProgress",
+                "in": {
+                    "transactionId": "1"
+                },
+                "target": {
+                    "percentage": "xxx",
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case97": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_USBMount",
+                "in": {
+		    "devid":"0"
+                },
+                "target": {
+		    "mount_path":"xxx",
+		    "res":"xxx",
+		    "errdesc":"xxx"
+                }
+            }
+        },
+        {
+            "case98": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_USBUnMount",
+                "in": {
+		    "mount_path":"/dev/sda"
+                },
+                "target": {
+		    "res":"xxx",
+		    "errdesc":"xxx"
+                }
+            }
+        },
+        {
+            "case98": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_USBSetLabel",
+                "in": {
+		    "path":"/dev/sda",
+		    "label":""
+                },
+                "target": {
+		    "result":"xxx",
+		    "errdesc":"xxx"		
+                }
+            }
+        },
+        {
+            "case111": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwAddVPNConnection",
+                "in": {
+		    "CtSgwVPNConn_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+	                "vpn_type": "l2tp",
+	                "tunnel_name": "xxx",
+	                "user_id": "xxx",
+	                "vpn_mode": "random",
+	                "vpn_priority": "1",
+	                "vpn_idletime": "0",
+	                "account_proxy": "xxx",
+	                "vpn_addr": "xxx",
+	                "vpn_account": "xxx",
+	                "vpn_pwd": "xxx",
+	                "vpn_port": "xxx",
+	                "attach_mode": "1",
+	                "domain_num": "xxx",
+	                "domains": { 
+			     "str": "xxx"
+			},
+	                "ip_num": "xxx",
+	                "ips": { 
+			     "str": "xxx"
+			},
+	                "terminal_mac": "xxx"
+		    }
+                }
+            }
+        },
+        {
+            "case112": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwDelVPNConnByName",
+                "in": {
+                    "tunnelName": "xxx"
+                }
+            }
+        },
+        {
+            "case113": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwAttachVPNConnection",
+                "in": {
+                    "tunnelName": "xxx",
+                    "ipAddrList": "xxx",
+                    "ipAddrNum": "xxx"
+                }
+            }
+        },
+        {
+            "case114": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwDetachVPNConnection",
+                "in": {
+                    "tunnelName": "xxx",
+                    "ipAddrList": "xxx",
+                    "ipAddrNum": "xxx"
+                }
+            }
+        },
+        {
+            "case115": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetVPNConnectionStatus",
+                "target": {
+                    "CtSgwVPNConnStats_t": {
+			 "path": {
+			     "str": "xxx"
+			 },
+                   	 "arrayLen": "xxx",
+                   	 "data": {
+			    "str": "xxx"
+			 }		
+		    }
+                }
+            }
+        },
+        {
+            "case115": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetDNSServerConfig",
+                "in": {
+                    "CtSgwDNSServerConfig_t": {
+			 "path": {
+			     "str": "xxx"
+			 },
+                   	 "Server1": "xxx",
+                   	 "Server2": "xxx"
+		    }
+                }
+            }
+        },
+        {
+            "case115": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetDNSServerConfig",
+                "target": {
+                    "CtSgwDNSServerConfig_t": {
+			 "path": {
+			     "str": "xxx"
+			 },
+                   	 "Server1": "xxx",
+                   	 "Server2": "xxx"
+		    }
+                }
+            }
+        },
+        {
+            "case115": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwFlushDNS",
+                "target": {
+                   	 "result": "xxx",
+                   	 "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case116": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_AddDNSTunnel",
+                "in": {
+                    "domain_name": "www.baidu.com",
+                    "server": "192.168.1.33"
+                }
+            }
+        },
+        {
+            "case117": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_DelDNSTunnel",
+                "in": {
+                    "domain_name": "www.baidu.com"
+                }
+            }
+        },
+        {
+            "case3": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetDDNSServerObjs",
+                "target": {
+                    "CtSgwDDNServer_t": [
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "DDNSCfgEnabled": "0",
+                            "DDNSProvider": "xxx",
+                            "DDNSUsername": "xxx",
+                            "DDNSPassword": "xxx",
+                            "ServicePort": "xxx",
+                            "DDNSDomainName": "xxx",
+                            "DDNSHostName": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "DDNSCfgEnabled": "0",
+                            "DDNSProvider": "xxx",
+                            "DDNSUsername": "xxx",
+                            "DDNSPassword": "xxx",
+                            "ServicePort": "xxx",
+                            "DDNSDomainName": "xxx",
+                            "DDNSHostName": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "DDNSCfgEnabled": "0",
+                            "DDNSProvider": "xxx",
+                            "DDNSUsername": "xxx",
+                            "DDNSPassword": "xxx",
+                            "ServicePort": "xxx",
+                            "DDNSDomainName": "xxx",
+                            "DDNSHostName": "xxx"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case118": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetDDNSServerInstance",
+                "in": {
+                    "path": {
+                        "str": "xxx"
+                    }
+		},
+		"target": {
+                    "CtSgwDDNServer_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "DDNSCfgEnabled": "0",
+                        "DDNSProvider": "xxx",
+                        "DDNSUsername": "xxx",
+                        "DDNSPassword": "xxx",
+                        "ServicePort": "xxx",
+                        "DDNSDomainName": "xxx",
+                        "DDNSHostName": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case118": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetDDNSServerInstance",
+                "in": {
+                    "path": {
+                        "str": "xxx"
+                    },
+                    "CtSgwDDNServer_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "DDNSCfgEnabled": "xxx",
+                        "DDNSProvider": "xxx",
+                        "DDNSUsername": "xxx",
+                        "DDNSPassword": "xxx",
+                        "ServicePort": "xxx",
+                        "DDNSDomainName": "xxx",
+                        "DDNSHostName": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case118": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwAddDDNSServerInstance",
+                "in": {
+                    "CtSgwDDNServer_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "DDNSCfgEnabled": "xxx",
+                        "DDNSProvider": "xxx",
+                        "DDNSUsername": "xxx",
+                        "DDNSPassword": "xxx",
+                        "ServicePort": "xxx",
+                        "DDNSDomainName": "xxx",
+                        "DDNSHostName": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case117": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwDelDDNSServerInstance",
+                "in": {
+                    "path": {
+			"str": "xxx"
+		    }
+                }
+            }
+        },
+        {
+            "case118": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_SetFtpServer",
+                "in": {
+                    "CtSgw_FTPServerConfig_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/ftpserver"
+                        },
+                        "Enable": "1",
+                        "AllowAnonymous": "1"
+                    }
+                }
+            }
+        },
+        {
+            "case119": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_GetFTPServer",
+                "target": {
+                    "CtSgw_FTPServerConfig_t": {
+                        "path": {
+                            "str": "XXX"
+                        },
+                        "Enable": "2",
+                        "AllowAnonymous": "0"
+                    }
+                }
+            }
+        },
+        {
+            "case122": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_AddFtpAccount",
+                "in": {
+                    "CtSgw_FTPAccount_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "UserName": "admin",
+                        "Password": "admin"
+                    }
+                }
+            }
+        },
+        {
+            "case120": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_GetFTPAccountObjs",
+                "target": {
+                    "CtSgw_FTPAccount_t": [
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "UserName": "xxx",
+                            "Password": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "UserName": "xxx",
+                            "Password": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "XXX"
+                            },
+                            "UserName": "xxx",
+                            "Password": "xxx"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case121": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_GetFTPAccount",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/ftpserver/Accounts/1"
+                    }
+                },
+                "target": {
+                    "CtSgw_FTPAccount_t":{
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "UserName": "xxx",
+                            "Password": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case123": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_DelFtpAccount",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/ftpserver/Accounts/1"
+                    }
+                }
+            }
+        },
+        {
+            "case124": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_GetSambaServer",
+                "target": {
+                    "CtSgw_SambaServerConfig_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/SambaServer"
+                        },
+                        "Enable": "2",
+                        "AllowAnonymous": "0"
+                    }
+                }
+            }
+        },
+        {
+            "case125": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_SetSambaServer",
+                "in": {
+                    "CtSgw_SambaServerConfig_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/SambaServer"
+                        },
+                        "Enable": "1",
+                        "AllowAnonymous": "1"
+                    }
+                }
+            }
+        },
+        {
+            "case128": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_AddSambaAccount",
+                "in": {
+                    "CtSgw_SambaAccount_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "UserName": "admin",
+                        "Password": "admin"
+                    }
+                }
+            }
+        },
+        {
+            "case126": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_GetSambaAccountObjs",
+                "target": {
+                    "CtSgw_SambaAccount_t": [
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "UserName": "xxx",
+                            "Password": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "UserName": "xxx",
+                            "Password": "xxx"
+                        },
+                        {
+                            "path": {
+                                "str": "xxx"
+                            },
+                            "UserName": "xxx",
+                            "Password": "xxx"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case127": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_GetSambaAccount",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/SambaServer/Accounts/1"
+                    }
+                },
+                "target": {
+                    "CtSgw_SambaAccount_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/SambaServer/Accounts/1"
+                        },
+                        "UserName": "useradmin",
+                        "Password": "useradmin"
+                    }
+                }
+            }
+        },
+        {
+            "case129": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_DelSambaAccount",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/SambaServer/Accounts/1"
+                    }
+                }
+            }
+        },
+        {
+            "case130": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_GetHttpServer",
+                "target": {
+                    "CtSgw_HttpServerConfig_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/HTTPServer"
+                        },
+                        "Enable": "0",
+                        "AdminPassword": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case131": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgw_SetHttpServer",
+                "in": {
+                    "CtSgw_HttpServerConfig_t": {
+                        "path": {
+                            "str": "/com/ctc/igd1/HTTPServer"
+                        },
+                        "Enable": "1",
+                        "AdminPassword": "useradmin"
+                    }
+                }
+            }
+        },
+        {
+            "case135": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwAddUplinkQosPrioQueue",
+                "in": {
+                    "CtSgwUplinkQosPQ_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "Enable": "1",
+                        "Priority": "3",
+                        "Weight": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case132": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetUplinkQoSPrioQueueObjs",
+                "target": {
+                    "CtSgwUplinkQosPQ_t": [
+                        {
+                            "Enable": "0",
+                            "Priority": "6",
+                            "Weight": "xxx"
+                        },
+                        {
+                            "Enable": "0",
+                            "Priority": "6",
+                            "Weight": "xxx"
+                        },
+                        {
+                            "Enable": "0",
+                            "Priority": "6",
+                            "Weight": "xxx"
+                        }
+                    ],
+                    "count": "3"
+                }
+            }
+        },
+        {
+            "case133": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwGetUplinkQosPrioQueue",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/QoS/UplinkQoS/PrioQueue/1"
+                    }
+                },
+                "target": {
+                    "CtSgwUplinkQosPQ_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "Enable": "0",
+                        "Priority": "6",
+                        "Weight": "xxx"
+                    }
+                }
+            }
+        },
+        {
+            "case134": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSetUplinkQoSPrioQueue",
+                "in": {
+                    "path": {
+                        "str": "/com/ctc/igd1/Config/QoS/UplinkQoS/PrioQueue/1"
+                     },
+                    "CtSgwUplinkQosPQ_t": {
+                        "path": {
+                            "str": "xxx"
+                        },
+                        "Enable": "1",
+                        "Priority": "2",
+                        "Weight": "20"
+                    }
+                }
+            }
+        },
+        {
+            "case136": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwDelUplinkQoSPrioQueue",
+                "in": {
+                        "path": {
+                            "str": "/com/ctc/igd1/Config/QoS/UplinkQoS/PrioQueue/1"
+                        }
+                }
+            }
+        },
+        {
+            "case54": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdSetLOID",
+                "in": {
+                    "loid": "SMARTHUBG07",
+                    "password": "123"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case55": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdRegisterLOID",
+                "target": {
+                    "res": "xxx",
+                    "errcode": "xxx"
+                }
+            }
+        },
+        {
+            "case56": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdCheckLOID",
+                "target": {
+                    "errcode": "xxx",
+                    "errmsg": "xxx"
+                }
+            }
+        },
+        {
+            "case59": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdReboot",
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case60": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdRestore",
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        },
+        {
+            "case61": {
+                "return": "int",
+                "return_target": "0",
+                "fuction": "CtSgwSysCmdUpgrade",
+                "in": {
+                    "url": "xxx",
+                    "mode": "xxx",
+                    "method": "xxxx"
+                },
+                "target": {
+                    "result": "xxx",
+                    "errdesc": "xxx"
+                }
+            }
+        }
+    ]
+}

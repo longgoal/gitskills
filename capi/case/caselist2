@@ -1,0 +1,11 @@
+{
+"caselist":[
+	{"case1":{
+                   "return": "void",
+                   "return_target": "1",
+                   "fuction": "GVariant"
+              }
+        }
+	
+        ]
+}

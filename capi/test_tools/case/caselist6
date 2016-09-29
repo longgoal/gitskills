@@ -1,0 +1,9 @@
+{
+"caselist":[
+         {"case1":{
+                   "return": "int",
+                   "return_target": "0",
+                   "fuction": "CtSgwGetDeviceInfo",
+                 
+                   }
+         },

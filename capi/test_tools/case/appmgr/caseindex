@@ -1,0 +1,13 @@
+{
+ "caseindex":{
+     "module":[
+      {"caselist0":["CtSgwInstallApp"]},
+      {"caselist1":["CtSgwUpgradeApp"]},
+      {"caselist2":["CtSgwUninstallApp"]},      
+      {"caselist3":["CtSgwStartApp"]},
+      {"caselist4":["CtSgwStopApp"]},      
+      {"caselist6":["CtSgwGetAppStatus"]},
+      {"caselist5":["CtSgwReloadApp"]}
+     ]
+ }
+}
